@@ -1,13 +1,11 @@
 package com.driver;
 
 public class Car extends Vehicle {
-    public boolean currentGear;
+    private boolean currentGear;
 
 
 
-    public Car(String name, boolean
-
-            currentGear) {
+    public Car(String name, boolean currentGear) {
             super(name);
             this.currentGear = currentGear;
     }
